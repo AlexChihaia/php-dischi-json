@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "title": "Kind of Blue",
+        "author": "Miles Davis",
+        "year": "1959",
+        "genre": "Jazz",
+        "img": "./img/Kind-of-Blue-Miles-Davis-450x450.jpg"
+    },
+    {
+        "id": "1",
+        "title": "Discovery",
+        "author": "Daft Punk",
+        "year": "1997",
+        "genre": "Electronic",
+        "img": "./img/Discovery-Daft-Punk-450x450.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Abbey Road",
+        "author": "The Beatles",
+        "year": "1969",
+        "genre": "Pop rock",
+        "img": "./img/Abbey-Road-The-Beatles-450x450.jpg"
+    },
+    {
+        "id": "3",
+        "title": "The Freewheelin’ Bob Dylan",
+        "author": "Bob Dylan",
+        "year": "1963",
+        "genre": "Folk",
+        "img": "./img/The-Freewheelin-Bob-Dylan-Bob-Dylan-450x450.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Kid A",
+        "author": "Radiohead",
+        "year": "2000",
+        "genre": "Braindance",
+        "img": "./img/Kid-A-Radiohead-450x450.jpg"
+    },
+    {
+        "id": "5",
+        "title": "The Chronic",
+        "author": "Dr. Dre",
+        "year": "1992",
+        "genre": "Hardcore hip hop",
+        "img": "./img/The-Chronic-Dr-Dre-450x450.jpg"
+    }
+]

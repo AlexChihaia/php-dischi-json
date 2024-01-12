@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dischi JSON</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- /css -->
+</head>
+
+<body>
+    <div id="app">
+
+        <ul>
+            <li v-for="disc in discs">
+                <p>{{disc.title}}</p>
+                <p>{{disc.author}}</p>
+                <p>{{disc.year}}</p>
+                <img :src="disc.img" alt="Disc IMG">
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- /axios -->
+
+    <!-- vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- /vue -->
+
+    <!-- my script js -->
+    <script src="script.js"></script>
+    <!-- /my script js -->
+</body>
+
+</html>
