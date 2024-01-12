@@ -7,21 +7,22 @@
     <title>Dischi JSON</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../client/style.css">
     <!-- /css -->
 </head>
 
 <body>
     <div id="app">
-
-        <ul>
-            <li v-for="disc in discs">
-                <p>{{disc.title}}</p>
-                <p>{{disc.author}}</p>
-                <p>{{disc.year}}</p>
-                <img :src="disc.img" alt="Disc IMG">
-            </li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li v-for="disc in discs">
+                    <img :src="disc.img" alt="Disc IMG">
+                    <h3>{{disc.title}}</h3>
+                    <p>{{disc.author}}</p>
+                    <p class="release">Released in: {{disc.year}}</p>
+                </li>
+            </ul>
+        </div>
 
     </div>
 
